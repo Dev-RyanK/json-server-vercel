@@ -1,9 +1,49 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "contents": [
+    {
+      "id": 1,
+      "content_title": "바람이 분다, 가라 - 한강 / 문학과 지성사",
+      "content_body": "겨울에 꼭 읽는 책",
+      "content_author": "작성자",
+      "content_genre": "book",
+      "content_link": "",
+      "content_date": "yyyy-mm-dd"
+    },
+    {
+      "id": 2,
+      "content_title": "title 2",
+      "content_body": "Body 2 ",
+      "content_author": "author 2",
+      "content_genre": "book",
+      "content_link": "https://www.naver.com/",
+      "content_date": "yyyy-mm-dd"
+    },
+    {
+      "id": 3,
+      "content_title": "title 3",
+      "content_body": "Body 3 ",
+      "content_author": "author 3",
+      "content_genre": "album",
+      "content_link": "https://www.naver.com/",
+      "content_date": "yyyy-mm-dd"
+    },
+    {
+      "id": 4,
+      "content_title": "title 4",
+      "content_body": "Body 4 ",
+      "content_author": "author 4",
+      "content_genre": "movie",
+      "content_link": "https://www.naver.com/",
+      "content_date": "yyyy-mm-dd"
+    },
+    {
+      "id": 5,
+      "content_title": "title 5",
+      "content_body": "Body 5 ",
+      "content_author": "author 5",
+      "content_genre": "etc",
+      "content_link": "https://www.naver.com/",
+      "content_date": "yyyy-mm-dd"
+    }
+  ]
 }
