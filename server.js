@@ -1,12 +1,12 @@
-const fs = require("fs")
+/* const fs = require("fs")
 const os = require("os")
 const path = require("path")
-const url = require("url")
+const url = require("url") */
 
-fs.copyFile("db.json", os.tmpdir() + "/db.json", function (err) {
+/* fs.copyFile("db.json", os.tmpdir() + "/db.json", function (err) {
   if (err) console.log(err)
   else console.log("copy file succeed to" + os.tmpdir())
-})
+}) */
 
 // See https://github.com/typicode/json-server#module
 const jsonServer = require("json-server")
